@@ -29,7 +29,7 @@ public class Controller {
     public void setImage(int imageNumber){
         System.out.println(imageNumber);
         try {
-            File file = new File("pwd/home/farida/Dprojects/JavaFX IdeaProjects/BMI/src/sample/s"+imageNumber+".png");
+            File file = new File("/home/farida/Dprojects/JavaFX IdeaProjects/BMI/src/sample/s"+imageNumber+".png");
             Image image = new Image(file.toURI().toString());
             imageView.setImage(image);
         }
